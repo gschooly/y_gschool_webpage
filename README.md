@@ -56,14 +56,27 @@
       font-size: 15px;
     }
 
-    .btn {
+    .contents:hover {
+      color: mediumblue;
+    }
+
+    .box {
       font-size: 13px;
       color: gray;
       border: 1px solid gray;
-      padding-top: 7px;
-      padding-bottom: 7px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       padding-left: 30px;
       padding-right: 30px;
+      -moz-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
+      -webkit-transition: all, 0.5s;
+      transition: all, 0.5s;
+    }
+
+    .box:hover {
+      background-color: navy;
+      color: white;
     }
 
     .video {
@@ -98,7 +111,7 @@
       line-height: 25px;
     }
 
-    .more {
+    .box_contents {
       display: flex;
       justify-content: center;
     }
@@ -109,36 +122,31 @@
       width: 350px;
     }
 
-    .curriculum {
+    .navy_box {
       background-color: navy;
       height: 215px;
       width: 350px;
     }
 
-    .more_text {
+    .box_contents_text {
       padding-top: 30px;
       padding-left: 25px;
       color: white;
     }
 
-    .more_main_text {
+    .box_contents_main_text {
       font-size: 17px;
       margin-bottom: 6px;
     }
 
-    .more_sub_text {
+    .box_contents_sub_text {
       font-size: 14px;
       line-height: 25px;
     }
 
-    .more_arrow {
+    .box_contents_arrow {
       font-size: 12px;
       margin-top: 65px;
-    }
-
-    .y {
-      margin-top: 40px;
-      font-size: 200px;
     }
   </style>
 </head>
@@ -156,7 +164,7 @@
       <div class="contents">거꾸로캠퍼스 소개</div>
     </div>
     <div class="head">
-      <div class="btn"><i class="far fa-edit"></i> 입학 상담 및 지원</div>
+      <div class="box"><i class="far fa-edit"></i> 입학 상담 및 지원</div>
     </div>
   </div>
   <div class="video">
@@ -171,32 +179,29 @@
         긍정적인 변화를 이끄는 인재를 양성합니다.</div>
     </div>
   </center>
-  <div class="more">
+  <div class="box_contents">
     <div class="bluebox">
-      <div class="more_text">
-        <div class="more_main_text"><strong>배움의 원칙</strong></div>
-        <div class="more_sub_text">거꾸로캠퍼스가 실현하는<br>21세기 배움의 원칙 아홉 가지</div>
-        <div class="more_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
+      <div class="box_contents_text">
+        <div class="box_contents_main_text"><strong>배움의 원칙</strong></div>
+        <div class="box_contents_sub_text">거꾸로캠퍼스가 실현하는<br>21세기 배움의 원칙 아홉 가지</div>
+        <div class="box_contents_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
       </div>
     </div>
-    <div class="curriculum">
-      <div class="more_text">
-        <div class="more_main_text"><strong>교육과정</strong></div>
-        <div class="more_sub_text">거꾸로캠퍼스의 교육 과정과<br>교육 프로그램에 대한 안내</div>
-        <div class="more_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
+    <div class="navy_box">
+      <div class="box_contents_text">
+        <div class="box_contents_main_text"><strong>교육과정</strong></div>
+        <div class="box_contents_sub_text">거꾸로캠퍼스의 교육 과정과<br>교육 프로그램에 대한 안내</div>
+        <div class="box_contents_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
       </div>
     </div>
     <div class="bluebox">
-      <div class="more_text">
-        <div class="more_main_text"><strong>학교생활</strong></div>
-        <div class="more_sub_text">거꾸로캠퍼스를 만들어가는<br>학생과 교사들의 이야기</div>
-        <div class="more_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
+      <div class="box_contents_text">
+        <div class="box_contents_main_text"><strong>학교생활</strong></div>
+        <div class="box_contents_sub_text">거꾸로캠퍼스를 만들어가는<br>학생과 교사들의 이야기</div>
+        <div class="box_contents_arrow"><strong>자세히보기</strong> <i class="fas fa-long-arrow-alt-right"></i></div>
       </div>
     </div>
   </div>
-  <center>
-    <div class="y">와이</div>
-  </center>
 </body>
 
 </html>
