@@ -1,0 +1,142 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+    .nanumgothic * {
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 90px;
+    }
+
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .head:nth-child(1) {
+      padding-bottom: 10px;
+      padding-left: 10px;
+      flex: 1;
+    }
+
+    .head:nth-child(2) {
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+      flex: 2;
+    }
+
+    .head:nth-child(3) {
+      padding-bottom: 10px;
+      flex: 1;
+    }
+
+    .gschool {
+      font-family: "Nanum Gothic";
+      font-size: 27px;
+    }
+
+    .contents {
+      font-size: 15px;
+    }
+
+    .contents:hover {
+      color: mediumblue;
+    }
+
+    .box {
+      font-size: 13px;
+      color: gray;
+      border: 1px solid gray;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      -moz-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
+      -webkit-transition: all, 0.5s;
+      transition: all, 0.5s;
+    }
+
+    .box:hover {
+      background-color: navy;
+      color: white;
+    }
+
+    .video {
+      height: 550px;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    #videoIFrame {
+      height: 100vw;
+      width: 100vw;
+    }
+
+    .introduce {
+      height: 120px;
+      margin-top: 50px;
+      margin-bottom: 65px;
+    }
+
+    .main_text {
+      font-size: 27px;
+    }
+
+    .sub_text {
+      font-size: 15px;
+      color: gray;
+      position: relative;
+      top: 25px;
+      line-height: 25px;
+    }
+
+    .box_contents {
+      display: flex;
+      justify-content: center;
+    }
+
+    .bluebox {
+      background-color: mediumblue;
+      height: 215px;
+      width: 350px;
+    }
+
+    .navy_box {
+      background-color: navy;
+      height: 215px;
+      width: 350px;
+    }
+
+    .box_contents_text {
+      padding-top: 30px;
+      padding-left: 25px;
+      color: white;
+    }
+
+    .box_contents_main_text {
+      font-size: 17px;
+      margin-bottom: 6px;
+    }
+
+    .box_contents_sub_text {
+      font-size: 14px;
+      line-height: 25px;
+    }
+
+    .box_contents_arrow {
+      font-size: 12px;
+      margin-top: 65px;
+    }
+
+
+
+    
